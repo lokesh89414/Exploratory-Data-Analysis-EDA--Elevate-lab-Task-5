@@ -58,7 +58,5 @@ The Titanic dataset contains information about 891 passengers with the following
 - Pclass shows strongest negative correlation with survival
 - Age shows moderate negative correlation with survival
 
-## How to Run the Analysis
-1. Install requirements:
-```bash
-pip install pandas matplotlib seaborn jupyter notebook
+###Conclusion
+The EDA revealed that gender, passenger class, and fare were the strongest predictors of survival. Women, children, and higher-class passengers had significantly better survival rates. These insights can inform feature engineering for predictive modeling.
