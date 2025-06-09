@@ -19,41 +19,42 @@ The Titanic dataset contains information about 891 passengers with the following
 ## Key Findings
 
 ### 1. Survival Rate by Gender
-![Survival by Gender]()
+![Survival by Gender](Survival Count by Sex.png)
 - Females had significantly higher survival rate (74%) compared to males (19%)
 - "Women and children first" protocol was clearly followed
 
 ### 2. Passenger Class Impact
-![Survival by Class](https://i.imgur.com/8KXoY9g.png)
+![Survival by Class](Survival Count by Pclass.png)
 - 1st class passengers had 63% survival rate
 - 3rd class passengers had only 24% survival rate
 - Higher classes had priority access to lifeboats
 
 ### 3. Age Distribution Analysis
-![Age Distribution](https://i.imgur.com/V5LdGQf.png)
+![Age Distribution](Age Distribution.png)
+![Age Distribution](Age Distribution by Survival.png)
 - Children (<10 years) had highest survival rate
 - Most passengers were between 20-40 years old
 - Elderly passengers (>60) had lower survival rates
 
 ### 4. Fare Correlation with Survival
-![Fare Distribution](https://i.imgur.com/7jXqZ7r.png)
+![Fare Distribution](Fare Distribution.png)
 - Higher fare passengers had better survival chances
 - Clear negative correlation between Pclass and Fare
 - Most fares were under $50 (right-skewed distribution)
 
 ### 5. Embarkation Port Patterns
-![Embarkation Analysis](https://i.imgur.com/5bJtK1f.png)
+![Embarkation Analysis](Survival Count by Embarked Port.png)
 - Cherbourg passengers had highest survival rate (55%)
 - Most passengers embarked at Southampton
 - Queenstown passengers had lowest survival rate
 
 ### 6. Family Size Impact
-![Family Size](https://i.imgur.com/1fZcJ8r.png)
+![Family Size](Feature Correlation Heatmap.png)
 - Passengers with 1-3 family members had better survival odds
 - Solo travelers and large families (>4) had lower survival rates
 
 ### 7. Feature Correlations
-![Correlation Heatmap](https://i.imgur.com/2kGQjqy.png)
+![Correlation Heatmap](Final Corrected Pairplot of Titanic Features by Survival.png)
 - Fare shows strongest positive correlation with survival
 - Pclass shows strongest negative correlation with survival
 - Age shows moderate negative correlation with survival
