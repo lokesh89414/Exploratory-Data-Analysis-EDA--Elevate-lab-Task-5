@@ -54,7 +54,7 @@ The Titanic dataset contains information about 891 passengers with the following
 - Solo travelers and large families (>4) had lower survival rates
 
 ### 7. Feature Correlations
-![Correlation Heatmap](Final Corrected Pairplot of Titanic Features by Survival.png)
+![Correlation Heatmap]([Final Corrected Pairplot of Titanic Features by Survival.png](https://github.com/lokesh89414/Exploratory-Data-Analysis-EDA--Elevate-lab-Task-5/blob/main/Final%20Corrected%20Pairplot%20of%20Titanic%20Features%20by%20Survival.png))
 - Fare shows strongest positive correlation with survival
 - Pclass shows strongest negative correlation with survival
 - Age shows moderate negative correlation with survival
